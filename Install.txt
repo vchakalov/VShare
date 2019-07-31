@@ -1,0 +1,8 @@
+Windows:
+From https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook download pyHook-1.5.1-cp37-cp37m-win_amd64.whl and set it in project folder.
+
+pip3 install pygame
+pip3 install pyHook-1.5.1-cp37-cp37m-win_amd64.whl
+pip3 install PyUserInput
+pip3 install mss
+

@@ -22,16 +22,11 @@ class MouseMovement(PyMouseEvent):
         PyMouseEvent.__init__(self)
         self.socket = socket
         self.address = address
-    
-    
-     def click(self, x, y, button, press):
+    def click(self, x, y, button, press):
         if button == 1:
-            if press:
+            press
         else:  # Exit if any other mouse button used
-            self.stop()    
-        
-        
-
+            self.stop()             
 
 def recvall(conn, length):
     """ Retreive all pixels. """
